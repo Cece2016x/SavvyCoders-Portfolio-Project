@@ -1,6 +1,6 @@
 # Welcome to Celia's Savvy Coders Website
 
-## February2018##
+## February2018 
 
 *I am a mother of one awesome two year old.*
 
