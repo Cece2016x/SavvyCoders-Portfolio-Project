@@ -1,6 +1,6 @@
 # Welcome to Celia's Savvy Coders Website
 
-## February2018 
+## February2018
 
 *I am a mother of one awesome two year old.*
 
@@ -13,7 +13,7 @@
 
 ![my face](https://avatars1.githubusercontent.com/u/36176987?s=460&v=4)
 
-###Contact Info:
+ Contact Info:
 
 1. [email](successfultools@yahoo.com)
 2. [github](https://github.com/Cece2016x)
