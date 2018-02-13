@@ -1,0 +1,32 @@
+h1 {
+  color: teal;
+  font-size: 4em;
+}
+
+h3 {
+  color: yellow;
+}
+
+ol {
+  width: 200px;
+}
+
+img {
+  width:500px;
+}
+
+body {
+  background-color: cyan;
+}
+
+.backdrop {
+  background-color: yellow;
+}
+
+.mid-width{
+  width: 500px;
+}
+
+#trueblue {
+  background-color: blue;
+}
