@@ -1,5 +1,9 @@
+#borderheader {
+  border: solid 1px red;
+
+}
 h1 {
-  color: teal;
+  color: purple;
   font-size: 4em;
 }
 
@@ -16,7 +20,54 @@ img {
 }
 
 body {
-  background-color: cyan;
+  background-color: pink;
+}
+
+ul {
+  background-color:blue;
+}
+
+ol.container {
+  background-color:gold;
+}
+
+ul.container {
+  background-color: orange;
+}
+
+ol {
+  background-color:purple;
+}
+
+ol li {
+  border: solid 1px red;
+}
+
+ol > li:first-child{
+background-color: green;
+}
+
+ol > li:nth-child(2) {
+  background-color: grey;
+}
+
+ol > li:nth-child(3) {
+  background-color: red;
+}
+#content > ul {
+  color: red;
+}
+
+#content > ol {
+  color: cyan;
+}
+
+#content > p {
+  color: yellow;
+}
+
+#content > h2 {
+  margin: 100px;
 }
 
 .backdrop {
@@ -29,4 +80,20 @@ body {
 
 #trueblue {
   background-color: blue;
+}
+
+.container {
+  max-width: 760px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#content {
+  margin: 0 auto;
+}
+
+#navigation {
+  padding: 25px;
 }
