@@ -9,6 +9,7 @@ h1 {
 
 h3 {
   color: yellow;
+  font-size: 6em;
 }
 
 ol {
@@ -32,7 +33,7 @@ ol.container {
 }
 
 ul.container {
-  background-color: orange;
+  background-color: purple;
 }
 
 ol {
@@ -47,13 +48,30 @@ ol > li:first-child{
 background-color: green;
 }
 
-ol > li:nth-child(2) {
+ol > li:nth-child(2n) {
   background-color: grey;
 }
 
 ol > li:nth-child(3) {
-  background-color: red;
+  background-color: royalblue;
 }
+
+ul li {
+  border: solid 1px black;
+}
+
+ul > li:first-child {
+  background-color: brown;
+}
+
+ul > li:nth-child(2n) {
+  background-color: maroon;
+}
+
+ul > li:nth-child(5) {
+  background-color: yellow;
+}
+
 #content > ul {
   color: red;
 }
@@ -62,8 +80,18 @@ ol > li:nth-child(3) {
   color: cyan;
 }
 
+#content > h2 {
+  color: white;
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 3em;
+  font-weight: bolder;
+
+
+}
 #content > p {
   color: yellow;
+  font-size: 2em;
 }
 
 #content > h2 {
@@ -84,8 +112,8 @@ ol > li:nth-child(3) {
 
 .container {
   max-width: 760px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left:auto;
   margin-right: auto;
 }
