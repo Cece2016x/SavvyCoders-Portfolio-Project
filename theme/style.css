@@ -44,7 +44,7 @@ ol li {
   border: solid 1px red;
 }
 
-ol > li:first-child{
+ol > li:first-child {
 background-color: green;
 }
 
@@ -58,6 +58,11 @@ ol > li:nth-child(3) {
 
 ul li {
   border: solid 1px black;
+}
+
+ul > div {
+  height: 100px;
+  background-color: white;
 }
 
 ul > li:first-child {
@@ -90,7 +95,7 @@ ul > li:nth-child(5) {
 
 }
 #content > p {
-  color: yellow;
+  color: red;
   font-size: 2em;
 }
 
