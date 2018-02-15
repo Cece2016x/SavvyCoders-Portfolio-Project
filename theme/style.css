@@ -77,6 +77,29 @@ ul > li:nth-child(5) {
   background-color: yellow;
 }
 
+#navigation > ul > li {
+  display:inline;
+}
+#navigation {
+  postion: fixed;
+  top: 0
+  left: 0
+  height: 1.3rem;
+width: 100vw;
+background-color: lightblue;
+}
+
+#navigation a:hover + .dropdown {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  left: -1rem;
+}
+
+#navigation a:hover + .dropdown{
+  background-color: green;
+}
+
 #content > ul {
   color: red;
 }
