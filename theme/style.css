@@ -80,25 +80,38 @@ ul > li:nth-child(5) {
 #navigation > ul > li {
   display:inline;
 }
+
 #navigation {
-  postion: fixed;
-  top: 0
-  left: 0
-  height: 1.3rem;
+postion: fixed;
+top: 0
+left: 0
+height: 1.3rem;
 width: 100vw;
 background-color: lightblue;
 }
 
-#navigation a:hover + .dropdown {
-  display: none;
-  position: absolute;
-  top: 1.5rem;
-  left: -1rem;
+#navigation ul.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-end;
 }
 
-#navigation a:hover + .dropdown{
-  background-color: green;
+#navigation a:hover + .dropdown,
+#navigation .dropdown:hover {
+display: block;
+background-color: purple;
 }
+
+#navigation li:first-child {
+  position: relative;
+}
+
+#navigation .dropdown {
+display: none;
+position: absolute;
+}
+
 
 #content > ul {
   color: red;
@@ -126,11 +139,7 @@ background-color: lightblue;
   margin: 100px;
 }
 
-.backdrop {
-  background-color: yellow;
-}
-
-.mid-width{
+.mid-width {
   width: 500px;
 }
 
