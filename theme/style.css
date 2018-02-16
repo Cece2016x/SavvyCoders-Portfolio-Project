@@ -5,6 +5,7 @@
 h1 {
   color: purple;
   font-size: 4em;
+  font-family: 'kavivanar', cursive, 'Nanum Pen Script';
 }
 
 h3 {
@@ -49,7 +50,7 @@ background-color: green;
 }
 
 ol > li:nth-child(2n) {
-  background-color: grey;
+  background-color: yellow;
 }
 
 ol > li:nth-child(3) {
@@ -82,7 +83,6 @@ ul > li:nth-child(5) {
 }
 
 #navigation {
-postion: fixed;
 top: 0
 left: 0
 height: 1.3rem;
@@ -131,9 +131,9 @@ position: absolute;
 
 }
 #content > p {
-  color: red;
-  font-size: 2em;
-}
+  background-color: yellow;
+  font-size: 3em;
+  }
 
 #content > h2 {
   margin: 100px;
