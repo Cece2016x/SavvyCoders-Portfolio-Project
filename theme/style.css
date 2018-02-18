@@ -25,6 +25,31 @@ body {
   background-color: pink;
 }
 
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+    font-style: underline;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration:overline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 ul {
   background-color:blue;
 }
@@ -54,7 +79,7 @@ ol > li:nth-child(2n) {
 }
 
 ol > li:nth-child(3) {
-  background-color: royalblue;
+  background-color: black;
 }
 
 ul li {
@@ -70,13 +95,14 @@ ul > li:first-child {
   background-color: brown;
 }
 
-ul > li:nth-child(2n) {
-  background-color: maroon;
+ul > li:nth-child(2) {
+  background-color: purple;
 }
 
-ul > li:nth-child(5) {
+ul > li:nth-child(3) {
   background-color: yellow;
 }
+
 
 #navigation > ul > li {
   display:inline;
