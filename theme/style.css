@@ -47,6 +47,13 @@ h6 {
   font-size: 3em;
 }
 
+p {
+  color: purple;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 1em;
+}
+
 ol {
   width: 200px;
 }
