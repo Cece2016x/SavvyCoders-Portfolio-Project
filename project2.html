@@ -19,17 +19,25 @@
 <a class="button" href="https://www.w3schools.com/html/">W3 Schools</a>
 
 
-<button class="button button-outline">Outlined Button</button>
+<button class="button button-outline"><a href="http://cssgridgarden.com/" target="_blank">GridGarden</a></button>
 
 
 <input class="button button-clear" type="submit" value="Clear Button">
 
 </div>
 <div>
-<img src="C:\Users\User\Pictures\SavedPictures/Zaypic.jpg">
+<figure>
+<img src="images/zaypic.jpg"
+     alt="The head and torso of a dinosaur skeleton;
+          it has a large head with long sharp teeth"
+     width="400"
+     height="341">
+
+<figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
+</figure>
 </div>
 
-<h1>Heading</h1>
+<h1>Links</h1>
 <div>
   <ul>
   <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
@@ -51,7 +59,10 @@
 <div>
   <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 </div>
-<h2>Heading</h2>
+<div>
+  <a href="https://github.com/Cece2016x"></a>
+</div>
+<h2>Forms</h2>
 <div>
   <form>
   <fieldset>
@@ -75,7 +86,7 @@
 </form>
 </div>
 
-<h3>Heading</h3>
+<h3>Tables</h3>
 <div>
   <table>
   <thead>
@@ -103,7 +114,7 @@
 </table>
 </div>
 
-<h4>Heading</h4>
+<h4>Inputs and Columns</h4>
 <div>
   <div class="container">
 
@@ -121,15 +132,69 @@
 
 </div>
 
-<h5>Heading</h5>
-<div>
-  <pre><code>
-.milligram {
-  color: #9b4dca;
-}
-</code></pre>
+<h5>Calendar</h5>
+<div class="month">
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>August<br><span style="font-size:18px">2017</span></li>
+  </ul>
 </div>
-<h6>Heading</h6>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li><span class="active">10</span></li>
+  <li>11</li>
+</ul>
+<div></div>
+
+<h6>Columns and Rows</h6>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+<button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Here is Column 1</h2>
+    <p>As I go along I'm learning how to add grids and columns</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+    <h2>Column 4</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
 <div>
 <div class="clearfix">
 
