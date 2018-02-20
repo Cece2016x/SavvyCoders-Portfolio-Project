@@ -6,6 +6,13 @@ h1 {
   color: purple;
   font-size: 4em;
   font-family: 'kavivanar', cursive, 'Nanum Pen Script';
+  background-color: white;
+  background-position: center;
+  font-weight: bolder;
+  font-variant-caps: petite-caps;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: full-width;
 }
 
 h2 {
@@ -14,6 +21,7 @@ h2 {
   font-family: fantasy; cursive;
   border-color: red;
   background-color: skyblue;
+  text-align: center;
 }
 
 h3 {
@@ -22,6 +30,7 @@ h3 {
   background-color: green;
   font-variant-position: sub;
   font-variant: small-caps;
+  text-align: center;
 }
 
 h4 {
@@ -30,13 +39,17 @@ h4 {
   font-family: monospace;
 background-color: yellow;
 font-display: block;
+text-align: center;
+
 }
+
 h5 {
   color: violet;
   background-color: gold;
   font-family: sans-serif;
   font-size: 2em;
   font-style: italic;
+  text-align: center;
 }
 
 h6 {
@@ -45,6 +58,7 @@ h6 {
   font-style: italic;
   font-family: cursive;
   font-size: 3em;
+  text-align: center;
 }
 
 p {
@@ -52,6 +66,7 @@ p {
   font-style: italic;
   font-family: cursive;
   font-size: 1em;
+  text-align: justify;
 }
 
 ol {
@@ -63,7 +78,7 @@ img {
 }
 
 body {
-  background-color: pink;
+  background-color: red;
 }
 
 a:link {
@@ -80,7 +95,7 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: blue;
     background-color: transparent;
     text-decoration:overline;
 }
@@ -90,6 +105,20 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+.zoom, .btn:hover {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
 
 .column {
     float: left;
