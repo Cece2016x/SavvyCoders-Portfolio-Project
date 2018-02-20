@@ -119,6 +119,41 @@ active, .btn:hover {
     margin: 0 auto;
 }
 
+.bar{
+    background-color: #5c9bb7;
+  background-size: 100% 100%;
+box-shadow: 0 1px 1px #ccc;
+border-radius: 2px;
+height: 100px;
+padding: 10px;
+position: relative;
+text-align: right;
+line-height: 1;
+}
+
+.bar a{
+background:#4987a1 center center no-repeat;
+width:32px;
+height:32px;
+display:inline-block;
+text-decoration:none !important;
+margin-right:5px;
+border-radius:2px;
+}
+
+.bar a.active{
+background-color:#c14694;
+}
+
+.bar a.list-icon{
+background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/26168504_194382831142472_3409093134791415928_n.jpg?oh=e71dbe7a65db4ce49f7ad7e90266833d&oe=5B17C801);
+}
+
+.bar a.grid-icon{
+background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/25659297_381347232310200_6825833998812612455_n.jpg?oh=9b402ce911a98d66f063e393efc906e3&oe=5B055FF2);
+}
+
+
 
 .column {
     float: left;
