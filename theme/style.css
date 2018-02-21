@@ -7,19 +7,36 @@ h1 {
   font-size: 4em;
   font-family: 'kavivanar', cursive, 'Nanum Pen Script';
   background-color: white;
-  background-position: center;
-  font-weight: bolder;
-  font-variant-caps: petite-caps;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: full-width;
+
+}
+#style > h1 {
+  color: purple;
+  font-size: 4em;
+  font-family: 'kavivanar', cursive, 'Nanum Pen Script';
+  background-color: white;
+  margin-right: -400px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+
+#style > h2 {
+  color: green;
+  font-size: 4em;
+  font-family: 'kavivanar';
+  background-color: yellow;
+  margin-right: -400px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 h2 {
-  color: brown:
+  color: yellow:
   font-size: 3em:
-  font-family: fantasy; cursive;
-  border-color: red;
+  font-family:cursive;
   background-color: skyblue;
   text-align: center;
 }
@@ -64,9 +81,10 @@ h6 {
 p {
   color: purple;
   font-style: italic;
-  font-family: cursive;
-  font-size: 1em;
+  font-family:sans-serif;
+  font-size: 2em;
   text-align: justify;
+  text-decoration: black underline;
 }
 
 ol {
