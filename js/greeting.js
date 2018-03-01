@@ -1,3 +1,4 @@
+var someSelector = prompt( "Give me a Selector" );
 var greetUser = function greetUser(){
     var firstName = prompt( "What's your name?" );
 
@@ -5,8 +6,11 @@ var greetUser = function greetUser(){
         greetUser();
     }
     else{
-        alert( "Hello " + firstName );
+        document.querySelector( "h1" ).textContent += " "  +  firstName;
     }
 };
 
 greetUser();
+
+
+console.log( document.querySelectorAll( someSelector ) );
