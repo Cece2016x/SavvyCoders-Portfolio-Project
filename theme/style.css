@@ -1,5 +1,6 @@
 #borderheader {
   border: solid 1px red;
+  text-align: center;
 
 }
 h1 {
@@ -58,9 +59,9 @@ h4 {
   color: lavender;
   font-size: 2em;
   font-family: monospace;
-background-color: yellow;
-font-display: block;
-text-align: center;
+  background-color: yellow;
+  font-display: block;
+  text-align: center;
 
 }
 
@@ -96,11 +97,17 @@ ol {
   width: 200px;
 }
 
+ul {
+  float: center;
+  width: 500px;
+
+}
+
 img {
   width:500px;
-  float:none;
+  float:center;
   clear:both;
-}
+  }
 
 body {
   background-color: red;
@@ -166,25 +173,25 @@ active, .btn:hover {
 }
 
 .bar{
-    background-color: #5c9bb7;
-  background-size: 100% 100%;
-box-shadow: 0 1px 1px #ccc;
-border-radius: 2px;
-height: 100px;
-padding: 10px;
-position: relative;
-text-align: center;
-line-height: 1;
+   background-color: #5c9bb7;
+   background-size: 100% 100%;
+   box-shadow: 0 1px 1px #ccc;
+   border-radius: 2px;
+   height: 100px;
+   padding: 10px;
+   position: relative;
+   text-align: center;
+   line-height: 1;
 }
 
 .bar a{
-background:#4987a1 center center no-repeat;
-width:32px;
-height:32px;
-display:inline-block;
-text-decoration:none !important;
-margin-right:5px;
-border-radius:2px;
+    background:#4987a1 center center no-repeat;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    text-decoration:none !important;
+    margin-right:5px;
+    border-radius:2px;
 }
 
 .bar a.active{

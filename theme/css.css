@@ -13,27 +13,17 @@ h1 {
 }
 
 p1 {
-  font-size: 3em;
+  font-size: 1em;
+  font-style: oblique;
   color: orange;
-  text-decoration: underline;
   background-color: purple;
-  text-decoration-color: green;
-  text-align: center;
   margin-left: 0px;
   overflow:auto;
   display:block;
-
-}
-
-
-p2 {
-  font-style: bold;object-fit: contain;
   text-indent: 25px;
-  line-height: 18px;
   margin-left: 0px;
   overflow:auto;
   display:block;
-
 }
 
 div > img {
@@ -47,12 +37,22 @@ div > img {
 
 
 #footer {
-  background-color: #f3e5f5;
- padding: 20px;
- flex: 1;
- display: flex;
- flex-direction: column;
- min-height: 100%;
+  position: relative;
+  margin-top: -150px;  /* negative value of footer height */
+  clear: both;
+  text-decoration: underline yellow;
+  background:#6cf;
+}
+
+#animate {
+  background-color: white;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: orange;
+  color: red;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .nav {

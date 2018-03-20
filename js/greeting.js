@@ -3,6 +3,7 @@ var $user = $( "input" );
 var $h1 = $( "h1" );
 var title = $h1.text();
 
+
 function greetUser(){
     var firstName = $user.val();
 

@@ -15,6 +15,8 @@
 
 
 <div id="header"><h1>Welcome to Celia's Porfolio Page</h1></div>
+<button id="go">&raquo; Run</button>
+<div id="block">Hello!</div>
 <input type="text"></input>
 <button id="greet">Click Me</button>
 
@@ -35,16 +37,43 @@
     <img class="my face"
     scr=<img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/19884192_142821022965320_2206924369509522364_n.jpg?oh=59bad831d1e8162c82cbccda5eca37eb&amp;oe=5B1583BA" alt="my face">
   </div>
-  <div><div id ="animate"></div><p1> About Me</p1></div>
+  <div id="animate">About Me</div>
 
 
-<div><p2> I am a very thrive young woman, who put her all in to everything I do. From waking up day to day, and planning each day out, sometimes I plan a weeks ahead of time just to make sure everything goes smoothly. I love being a Mom, reading, technology, learning new things and spending time with my family. I love coding and want to become a Professional Web Developer in my furture.</p2></div>
+<div><p1> I am a very thrive young woman, who put her all in to everything I do. From waking up day to day, and planning each day out, sometimes I plan a weeks ahead of time just to make sure everything goes smoothly. I love being a Mom, reading, technology, learning new things and spending time with my family. I love coding and want to become a Professional Web Developer in my furture.</p1></div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
 <script src="js/greeting.js" charset="utf-8"></script>
 
-<div id="footer"><h2>Copyright 2018</h2></div>
-</body>
 
+<div id="wrap">
+    <div id="main" class="clearfix">
+        <!-- non-footer content -->
+    </div>
+</div>
+
+<div id="footer">
+    <!-- footer content -->
+</div>
+<div id="footer"><h2>Copyright 2018</h2></div>
+
+<script>
+// Using multiple unit types within one animation.
+
+$( "#go" ).click(function() {
+  $( "#block" ).animate({
+    width: "70%",
+    opacity: 0.4,
+    marginLeft: "0.6in",
+    fontSize: "3em",
+    borderWidth: "10px"
+  }, 1500,"linear", function() {
+    alert( "Do you Like so Far?? Keep going forward and clink on more links" );
+} );
+} );
+
+</script>
+
+</body>
 </html>
