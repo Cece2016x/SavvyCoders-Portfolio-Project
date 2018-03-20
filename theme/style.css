@@ -40,8 +40,9 @@ h2 {
   color: yellow:
   font-size: 3em:
   font-family:cursive;
+  margin-right:auto;
   background-color: skyblue;
-  text-align: center;
+
 }
 
 h3 {
@@ -86,7 +87,8 @@ p {
   font-style: italic;
   font-family:sans-serif;
   font-size: 2em;
-  text-align: justify;
+  text-align: center;
+  margin-top: 100px;
   text-decoration: black underline;
 }
 
@@ -96,10 +98,33 @@ ol {
 
 img {
   width:500px;
+  float:none;
+  clear:both;
 }
 
 body {
   background-color: red;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 a:link {

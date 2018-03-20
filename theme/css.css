@@ -1,0 +1,111 @@
+body {
+  background-color: #570046;
+  background-image: url("https://image.freepik.com/free-vector/modern-abstract-background_1048-1003.jpg");
+}
+
+h1 {
+  background-color: white;
+  font-size: 4em;
+  text-align: center;
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.RkbwMB1p9twIR69IuCXH8wHaE8&pid=15.1&P=0&w=270&h=181");
+  display: grid;
+  grid-template-columns: auto;
+}
+
+p1 {
+  font-size: 3em;
+  color: orange;
+  text-decoration: underline;
+  background-color: purple;
+  text-decoration-color: green;
+  text-align: center;
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+
+}
+
+
+p2 {
+  font-style: bold;object-fit: contain;
+  text-indent: 25px;
+  line-height: 18px;
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+
+}
+
+div > img {
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    display: grid;
+    grid-template-columns: auto;
+    background-position: left;
+}
+
+
+#footer {
+  background-color: #f3e5f5;
+ padding: 20px;
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+}
+
+.nav {
+  background-color: purple;
+  color: white;
+  list-style-type: none;
+  display: grid;
+  display:flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav {
+    background-color: purple;
+    color: white;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav ul {
+    display: none;
+    list-style-type: none;
+
+}
+
+.nav>li {
+  text-align:center;
+}
+
+.nav li:hover {
+  background-color: red;
+}
+.nav a {
+      text-decoration: none;
+      color: white;
+}
+
+.dropdown {
+    display: none;
+    width: 20%;
+    position: absolute;
+    background-color: orange;
+    text-align: left;
+    list-style-type: none;
+}
+
+
+.dropdownParent:hover .dropdown {
+    display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: -10px;
+  width:80vw;
+}

@@ -1,16 +1,21 @@
-var someSelector = prompt( "Give me a Selector" );
-var greetUser = function greetUser(){
-    var firstName = prompt( "What's your name?" );
+/* globals $ */
+var $user = $( "input" );
+var $h1 = $( "h1" );
+var title = $h1.text();
 
-    if( !firstName ){
+function greetUser(){
+    var firstName = $user.val();
+
+    if( firstName ){
+        $h1.text( title + " " + firstName );
+    }
+}
+
+function inputCallback( event ){
+    if( event.which === 13 ){
         greetUser();
     }
-    else{
-        document.querySelector( "h1" ).textContent += " "  +  firstName;
-    }
-};
+}
 
-greetUser();
-
-
-console.log( document.querySelectorAll( someSelector ) );
+$user.on( "keypress", inputCallback );
+$( "#greet" ).on( "click", greetUser );
