@@ -1,0 +1,102 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: yellow;
+}
+
+
+.header {
+  color: yellow;
+  padding: 30px;
+  margin-top: auto;
+  font-size: 40px;
+  text-align: center;
+  background:purple;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: center;
+  width: 75%;
+  background-color: red;
+
+}
+
+/* Right column */
+.rightcolumn {
+  width: 25%;
+  padding-left: 20px;
+  background-color: green;
+  
+}
+
+
+.fakeimg {
+  background-image: url(https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/29541674_220604131853675_4302809231167865800_n.jpg?_nc_cat=0&oh=b050dadd85937cd25cb82fd7cb9a46d3&oe=5B28CACC);
+  background-repeat: no-repeat;
+  background-position: center right;
+  width: 100%;
+  padding: 20px;
+}
+
+.photo {
+  background-image: url(https://media.istockphoto.com/vectors/grunge-background-texture-vector-id642952704);
+  background-repeat: no-repeat;
+
+  }
+
+.card {
+  background-color: lavender;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: green;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
